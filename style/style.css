@@ -133,13 +133,63 @@ main aside p {
   background: lightgrey;
 }
 
+.index-heading{
+  display: flex;
+  justify-content: space-between;
+  border-top: lightgrey;
+  border-style: double;
+  border-bottom: none;
+  border-left:none;
+  border-right: none;
+  padding-top: 10px;
+  
+}
+.index-logo{
+  height: 50px;
+  width: 300px;
+  margin-left:8%;
+  
+}
+.index-titles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-top: 1em;
+  margin-left: 6%;
+}
+.index-titles h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.index-titles li {
+  list-style: none;
+}
+.site-index-section-list {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  padding-bottom: 2em;
+}
+.site-index-section-item {
+  padding-top: 1em;
+}
+.site-index-section-link {
+  color:black;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: red;
+  border-top-color:lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
 }
 .footer-link {
   font-size: x-small;
