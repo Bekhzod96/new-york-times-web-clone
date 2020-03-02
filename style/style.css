@@ -178,6 +178,10 @@ main aside p {
 .site-index-section-link {
   color:black;
 }
+.site-index-section-link-bold {
+  color: black;
+  font-weight: 900;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -205,4 +209,26 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+}
+.times-icon{
+  width: 1rem;
+  padding-right:5px;
+}
+#subscribe {
+  border-left-color:lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  padding-left: 10px;
+
+}
+#other-content {
+  border-top-color:lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom: none;
+  border-left: 1px;
+  border-right: none;
 }
