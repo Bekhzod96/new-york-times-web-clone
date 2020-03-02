@@ -3,12 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* border: 1px solid black; */
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
-body {
-  width: 100%;
-}
+
 header {
   display: flex;
   position: fixed;
@@ -20,6 +17,14 @@ header {
   border-bottom: thin solid lightgrey;
   background-color: white;
   z-index: 1;
+}
+
+.icons > * {
+  margin-left: 20px;
+}
+
+.create-account > * {
+  padding: 0 auto;
 }
 
 .header_items:nth-child(1) > * {
@@ -43,6 +48,7 @@ main {
   top: 85px;
   width: 100%;
 }
+
 .header_of_main {
   width: 100%;
   text-align: center;
@@ -52,7 +58,6 @@ main {
 }
 
 .header_of_main h1 {
-  font-family: Cheltenham Std Bold Italic Headline;
   display: inline-block;
   max-width: 550px;
   font-weight: 200;
@@ -60,13 +65,24 @@ main {
   padding: 20px;
 }
 
+article figure {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
 .header_of_main figure {
-  color: #666666;
+  color: #666;
   font-family: georgia, 'times new roman', times, serif;
   margin-right: 7px;
   font-size: 9px;
   line-height: 1rem;
   width: 80%;
+}
+
+main aside img {
+  width: 75px;
+  height: 100%;
 }
 
 .header_of_main figure img {
@@ -76,7 +92,6 @@ main {
 article {
   max-width: 600px;
   width: 600px;
-  /* margin-left: calc((100% - 600px) / 2); */
   margin: 20px auto 0 auto;
 }
 
@@ -85,15 +100,13 @@ article > div {
   display: flex;
   justify-content: space-between;
 }
-.icons > * {
-  margin-left: 20px;
-}
+
 article > p {
   margin-bottom: 15px;
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-family: georgia, 'times new roman', times, serif;
-  font-family: #333333;
+  font-family: #333;
 }
 
 main aside {
@@ -102,13 +115,10 @@ main aside {
   left: 82%;
   width: 210px;
 }
+
 main aside > div {
   display: flex;
   padding: 10px;
-}
-main aside img {
-  width: 75px;
-  height: 100%;
 }
 
 main aside p {
@@ -117,13 +127,10 @@ main aside p {
   color: rgb(51, 51, 51);
   margin-left: 10px;
 }
+
 .create-account {
   display: flex;
   justify-content: center;
-}
-
-.create-account > * {
-  padding: 0px auto;
 }
 
 .create-account div:before,
@@ -147,7 +154,7 @@ main aside p {
 .all-theories {
   margin-top: 50px;
   background-image: url('https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png');
-  background-color: #cccccc;
+  background-color: #ccc;
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,10 +172,12 @@ main aside p {
 .theory {
   min-width: 228px;
 }
+
 .by-larry {
   padding-top: 80px;
 }
-.by-larry:before {
+
+.by-larry::before {
   display: block;
   content: '';
   height: 3px;
@@ -185,22 +194,18 @@ article iframe {
   margin: 20px auto;
 }
 
-article figure {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  color: #666;
-}
-
 article small {
   font-size: 0.75rem;
   line-height: 1rem;
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
   color: rgb(102, 102, 102);
 }
+
 .article-footer {
   display: flex;
   justify-content: space-between;
 }
+
 .article-footer button {
   cursor: pointer;
   background-color: rgb(86, 123, 149);
@@ -218,6 +223,7 @@ article small {
   display: flex;
   justify-content: center;
 }
+
 .content {
   width: 57%;
   display: grid;
@@ -225,6 +231,7 @@ article small {
   /* width: 852px; */
   border-top: 1px solid #333;
 }
+
 .content-header {
   grid-column: 1/-1;
   justify-self: start;
@@ -234,7 +241,8 @@ article small {
   line-height: 1.375rem;
   width: 100%;
 }
-.top-line:before {
+
+.top-line::before {
   display: block;
   content: '';
   height: 2px;
@@ -242,10 +250,12 @@ article small {
   background: #333;
   margin-bottom: 15px;
 }
+
 .rec-article {
   max-width: 272px;
   min-width: 210px;
 }
+
 .rec-article figure {
   padding-bottom: 4px;
   font-size: 0.625rem;
@@ -254,13 +264,26 @@ article small {
   line-height: 1.23em;
   margin-top: 3px;
 }
+
 .rec-article figure img {
   width: 100%;
 }
+
 .rec-article h3 {
   font-size: 1.125rem;
   line-height: 22px;
 }
+
+.footer-aside-bar h3 {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0;
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
 .rec-article h3:hover {
   cursor: pointer;
   color: rgb(102, 102, 102);
@@ -273,21 +296,13 @@ article small {
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
 }
+
 .footer-aside-bar {
   width: 20%;
   margin-left: 20px;
   border-top: 1px solid #333;
 }
 
-.footer-aside-bar h3 {
-  border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
-  color: rgb(18, 18, 18);
-  font-weight: 500;
-  font-size: 1.1875rem;
-  line-height: 1.4375rem;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-}
 .index-heading {
   display: flex;
   justify-content: space-between;
@@ -298,11 +313,17 @@ article small {
   border-right: none;
   padding-top: 10px;
 }
+
+.index {
+  margin-top: 50px;
+}
+
 .index-logo {
   height: 50px;
   width: 300px;
   margin-left: 8%;
 }
+
 .index-titles {
   display: flex;
   flex-direction: row;
@@ -311,13 +332,16 @@ article small {
   padding-top: 1em;
   margin-left: 6%;
 }
+
 .index-titles h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
+
 .index-titles li {
   list-style: none;
 }
+
 .site-index-section-list {
   display: flex;
   flex-direction: column;
@@ -325,16 +349,20 @@ article small {
   font-size: small;
   padding-bottom: 2em;
 }
+
 .site-index-section-item {
   padding-top: 1em;
 }
+
 .site-index-section-link {
   color: black;
 }
+
 .site-index-section-link-bold {
   color: black;
   font-weight: 900;
 }
+
 footer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -348,10 +376,11 @@ footer {
   border-left: none;
   border-right: none;
 }
+
 .footer-link {
   font-size: x-small;
   font-weight: 400;
-  color: #666666;
+  color: #666;
   text-decoration: none;
   padding: 1em;
 }
@@ -363,10 +392,12 @@ footer {
   justify-content: center;
   list-style-type: none;
 }
+
 .times-icon {
   width: 1rem;
   padding-right: 5px;
 }
+
 #subscribe {
   border-left-color: lightgray;
   border-style: solid;
@@ -376,6 +407,7 @@ footer {
   border-right: none;
   padding-left: 10px;
 }
+
 #other-content {
   border-top-color: lightgray;
   border-style: solid;
