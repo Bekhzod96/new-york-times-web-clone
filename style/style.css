@@ -85,7 +85,7 @@ article > div {
 }
 
 article > p {
-  margin-bottom: 0.9375rem;
+  margin-bottom: 10%;
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-family: georgia, 'times new roman', times, serif;
@@ -117,6 +117,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: red;
 }
 .footer-link {
   font-size: x-small;
