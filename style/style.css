@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   /* border: 1px solid black; */
 }
 body {
   width: 100%;
-  height: 100%;
 }
 header {
   display: flex;
@@ -43,6 +43,8 @@ main {
   width: 100%;
 }
 .header_of_main {
+  width: 100%;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,21 +53,19 @@ main {
 .header_of_main h1 {
   font-family: Cheltenham Std Bold Italic Headline;
   display: inline-block;
-  max-width: 383px;
-  /* width: 800px; */
+  max-width: 550px;
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding: 20px;
 }
 
 .header_of_main figure {
-  display: block;
-  width: 80%;
   color: #666666;
   font-family: georgia, 'times new roman', times, serif;
   margin-right: 7px;
   font-size: 9px;
   line-height: 1rem;
+  width: 80%;
 }
 
 .header_of_main figure img {
@@ -73,8 +73,9 @@ main {
 }
 
 article {
-  width: 60%;
-  min-width: 600px;
+  max-width: 600px;
+  width: 600px;
+  margin-left: calc((100% - 600px) / 2);
   margin: 20px auto 0 auto;
 }
 
@@ -95,14 +96,16 @@ article > p {
 main aside {
   position: absolute;
   top: 1200px;
-  left: 1000px;
+  left: 82%;
   width: 210px;
 }
 main aside > div {
   display: flex;
+  padding: 10px;
 }
 main aside img {
   width: 75px;
+  height: 100%;
 }
 
 main aside p {
@@ -111,6 +114,25 @@ main aside p {
   color: rgb(51, 51, 51);
   margin-left: 10px;
 }
+.create-account {
+  display: flex;
+  justify-content: center;
+}
+
+.create-account > * {
+  padding: 0px auto;
+}
+
+.create-account div:before,
+.create-account div:after {
+  display: flex;
+  content: '';
+  height: 1px;
+  margin: 10px auto;
+  width: 70px;
+  background: lightgrey;
+}
+
 footer {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
