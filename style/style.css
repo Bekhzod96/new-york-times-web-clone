@@ -106,7 +106,6 @@ article > p {
   font-size: 1.25rem;
   line-height: 1.875rem;
   font-family: georgia, 'times new roman', times, serif;
-  font-family: #333;
 }
 
 main aside {
@@ -133,8 +132,8 @@ main aside p {
   justify-content: center;
 }
 
-.create-account div:before,
-.create-account div:after {
+.create-account div::before,
+.create-account div::after {
   display: flex;
   content: '';
   height: 1px;
@@ -148,7 +147,7 @@ main aside p {
   color: #333;
   padding: 20px;
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .all-theories {
@@ -228,7 +227,6 @@ article small {
   width: 57%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* width: 852px; */
   border-top: 1px solid #333;
 }
 
