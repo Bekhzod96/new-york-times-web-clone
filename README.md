@@ -5,10 +5,16 @@
 \*_In this project, you’ll get a chance to rebuild the form used by Mint.com for signing up new users. They have been highly praised for the design and simplicity of their site, and their signup process is very clean._
 
 > This repository consists of making a clone of a New York Times article page
+> PIC1
+> ![Preview](img/01.png?raw=true 'Title')
 
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/01.png)
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/02.png)
+PIC2
+![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/4e322c91d3a12ad8cc353f7ecfae5399ff8f0b95/img/02.png)
+
+PIC3
 ![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/03.png)
+
+PIC4
 ![Preview](https://github.com/Bekhzod96/theNewYorkTimes/blob/feature/img/04.png)
 
 ## Build With
