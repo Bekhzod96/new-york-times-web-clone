@@ -238,14 +238,16 @@ article small {
 }
 
 .more-article {
+  width: 1400px;
   display: flex;
   justify-content: center;
 }
 
 .content {
-  width: 57%;
+  width: 55%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
   border-top: 1px solid #333;
 }
 
@@ -269,8 +271,7 @@ article small {
 }
 
 .rec-article {
-  max-width: 272px;
-  min-width: 210px;
+  width: 250px;
 }
 
 .rec-article figure {
@@ -283,7 +284,7 @@ article small {
 }
 
 .rec-article figure img {
-  width: 100%;
+  width: 250px;
 }
 
 .rec-article h3 {
@@ -320,7 +321,7 @@ article small a {
 
 .footer-aside-bar {
   width: 20%;
-  margin-left: 20px;
+  margin-left: 50px;
   border-top: 1px solid #333;
 }
 
