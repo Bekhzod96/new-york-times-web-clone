@@ -23,15 +23,15 @@ header {
   z-index: 1;
 }
 
-.icons>* {
+.icons > * {
   margin-left: 20px;
 }
 
-.create-account>* {
+.create-account > * {
   padding: 0 auto;
 }
 
-.header_items:nth-child(1)>* {
+.header_items:nth-child(1) > * {
   margin-left: 15px;
 }
 
@@ -81,7 +81,7 @@ article figure {
   margin: 0 auto;
 }
 
-.second-img figure>* {
+.second-img figure > * {
   width: 100%;
   color: #666;
   font-size: 0.9375rem;
@@ -114,13 +114,13 @@ article {
   margin: 20px auto 0 auto;
 }
 
-article>div {
+article > div {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
 
-article>p {
+article > p {
   margin-bottom: 15px;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -134,7 +134,7 @@ main aside {
   width: 210px;
 }
 
-main aside>div {
+main aside > div {
   display: flex;
   padding: 10px;
 }
