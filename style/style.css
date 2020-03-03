@@ -36,6 +36,10 @@ header {
   margin: 0 auto;
 }
 
+.header_of_main > * {
+  align-self: center;
+}
+
 .second-img figure > * {
   width: 100%;
   color: #666;
@@ -71,9 +75,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.header_of_main > * {
-  align-self: center;
 }
 
 .header_of_main h1 {
