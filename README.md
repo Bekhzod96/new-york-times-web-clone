@@ -6,10 +6,10 @@
 
 > This repository consists of making a clone of a New York Times article page
 
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/Annotation 2020-03-03 091933.png)
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/Annotation 2020-03-03 092013.png)
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/Annotation 2020-03-03 092042.png)
-![Preview](https://github.com/Bekhzod96/theNewYorkTimes/blob/feature/img/Annotation%202020-03-03%20092240.png)
+![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/01.png)
+![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/02.png)
+![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/f9a4cc0ba5de172fca9eeb6fddb501f4fa2367c6/img/03.png)
+![Preview](https://github.com/Bekhzod96/theNewYorkTimes/blob/feature/img/04.png)
 
 ## Build With
 
