@@ -79,7 +79,6 @@ article figure {
 .second-img {
   width: 720px;
   margin: 0 auto;
-
 }
 
 .second-img figure>* {
@@ -87,7 +86,6 @@ article figure {
   color: #666;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-
 }
 
 .header_of_main figure {
@@ -318,7 +316,6 @@ article small {
 
 article small a {
   color: rgb(102, 102, 102);
-  ;
 }
 
 .footer-aside-bar {

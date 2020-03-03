@@ -6,7 +6,10 @@
 
 > This repository consists of making a clone of a New York Times article page
 
-![Preview](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/6c7e352fa62eeb9aaf5900c574000e850ea8d1ba/index.html)
+![Preview](img/Annotation 2020-03-03 091933.png)
+![Preview](img/Annotation 2020-03-03 092013.png)
+![Preview](img/Annotation 2020-03-03 092042.png)
+![Preview](img/Annotation 2020-03-03 092240.png)
 
 ## Build With
 
@@ -15,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+[Live Demo Link](https://rawcdn.githack.com/Bekhzod96/theNewYorkTimes/d0581f55130b649d722e5d565545eb50594e5366/index.html)
 
 **Deployment**:+1:
 
