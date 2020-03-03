@@ -6,6 +6,10 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+body {
+  max-width: 1500px;
+}
+
 header {
   display: flex;
   position: fixed;
@@ -19,15 +23,15 @@ header {
   z-index: 1;
 }
 
-.icons > * {
+.icons>* {
   margin-left: 20px;
 }
 
-.create-account > * {
+.create-account>* {
   padding: 0 auto;
 }
 
-.header_items:nth-child(1) > * {
+.header_items:nth-child(1)>* {
   margin-left: 15px;
 }
 
@@ -69,15 +73,32 @@ article figure {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   color: #666;
+  margin: 30px 0;
+}
+
+.second-img {
+  width: 720px;
+  margin: 0 auto;
+
+}
+
+.second-img figure>* {
+  width: 100%;
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+
 }
 
 .header_of_main figure {
   color: #666;
   font-family: georgia, 'times new roman', times, serif;
   margin-right: 7px;
-  font-size: 9px;
-  line-height: 1rem;
-  width: 80%;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  min-width: 870px;
+  max-width: 1200px;
+  text-align: left;
 }
 
 main aside img {
@@ -95,13 +116,13 @@ article {
   margin: 20px auto 0 auto;
 }
 
-article > div {
+article>div {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
 
-article > p {
+article>p {
   margin-bottom: 15px;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -115,7 +136,7 @@ main aside {
   width: 210px;
 }
 
-main aside > div {
+main aside>div {
   display: flex;
   padding: 10px;
 }
@@ -190,7 +211,7 @@ main aside p {
 }
 
 article iframe {
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 article small {
@@ -293,6 +314,11 @@ article small {
   line-height: 1.25rem;
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
+}
+
+article small a {
+  color: rgb(102, 102, 102);
+  ;
 }
 
 .footer-aside-bar {
