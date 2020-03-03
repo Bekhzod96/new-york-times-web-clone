@@ -31,6 +31,18 @@ header {
   padding: 0 auto;
 }
 
+.second-img {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.second-img figure > * {
+  width: 100%;
+  color: #666;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
 .header_items:nth-child(1) > * {
   margin-left: 15px;
 }
@@ -76,17 +88,6 @@ article figure {
   margin: 30px 0;
 }
 
-.second-img {
-  width: 720px;
-  margin: 0 auto;
-}
-
-.second-img figure > * {
-  width: 100%;
-  color: #666;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
 
 .header_of_main figure {
   color: #666;
