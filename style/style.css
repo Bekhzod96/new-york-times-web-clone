@@ -33,14 +33,14 @@ header {
 
 .second-img {
   width: 720px;
-  margin: 0 auto;
+  margin-left: -10%;
 }
 
 .header_of_main > * {
   align-self: center;
 }
 
-.second-img figure > * {
+.second-img > * {
   width: 100%;
   color: #666;
   font-size: 0.9375rem;
@@ -171,6 +171,7 @@ main aside p {
   padding: 20px;
   width: 1000px;
   margin: 0 auto;
+  margin-left: -30%;
 }
 
 .all-theories {
@@ -214,6 +215,8 @@ main aside p {
 
 article iframe {
   margin: 0 auto;
+  width: 600px;
+  height: 400px;
 }
 
 article small {
@@ -276,10 +279,6 @@ article small {
   background: #333;
   margin-bottom: 15px;
 }
-
-/* .rec-article {
-  width: 100%;
-} */
 
 .rec-article figure {
   padding-bottom: 4px;
@@ -405,6 +404,7 @@ footer {
   border-bottom: none;
   border-left: none;
   border-right: none;
+  padding-bottom: 60px;
 }
 
 .footer-link {
@@ -435,7 +435,6 @@ footer {
   border-bottom: none;
   border-top: none;
   border-right: none;
-  padding-left: 10px;
 }
 
 #other-content {
@@ -445,4 +444,25 @@ footer {
   border-bottom: none;
   border-left: 1px;
   border-right: none;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 50px;
+  background: white;
+  border-top: 2px solid black;
+  z-index: 10;
+  line-height: 3rem;
+}
+
+.fixed-footer span{
+  font-variant-caps: all-petite-caps;
+  font-size: large;
+  font-weight: bolder;
+  word-spacing: 40px;
 }
